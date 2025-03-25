@@ -4,7 +4,7 @@ agent any
     stage("run frontend") {
       steps {
         echo 'executing yarn...'
-        nodejs('NodeJS 23.10.0') {
+        nodejs('Node-23.10') {
           sh 'yarn install'
         }
       }
