@@ -4,7 +4,7 @@ agent any
     stage("run frontend") {
       steps {
         echo 'executing yarn...'
-        nodejs('')
+        nodejs('NodeJS 23.10.0')
       }
     }
     stage('run backend') {
